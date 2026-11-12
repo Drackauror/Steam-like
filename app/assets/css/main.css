@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+/* Reset minimal */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #171d25;
+    color: #c6d4df;
+    font-family: "Motiva Sans", Arial, Helvetica, sans-serif;
+}
+
+/* Bouton bleu Steam, réutilisable partout */
+.btn-steam {
+    padding: 0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    background: linear-gradient(to right, #47bfff 5%, #1a44c2 60%);
+    transition: filter 0.15s ease;
+}
+
+.btn-steam span {
+    display: block;
+    margin: 2px;
+    padding: 0 20px;
+    line-height: 38px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 2px;
+    background: rgba(0, 0, 0, 0.25);
+    transition: background 0.15s ease;
+}
+
+.btn-steam:hover {
+    filter: brightness(1.15);
+}
+
+.btn-steam:hover span {
+    background: transparent;
+}

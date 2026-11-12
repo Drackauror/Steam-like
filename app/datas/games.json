@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Project P.I.T.T",
+    "description": "Project P.I.T.T is an action-adventure game where players take on the role of a secret agent tasked with stopping a global threat. With a mix of stealth, combat, and puzzle-solving, players must navigate through various environments to complete their mission.",
+    "genres": [
+      "Action",
+      "Occasionnel",
+      "Indépendant"
+    ],
+    "price": 9.99,
+    "sales": 15,
+    "images": {
+      "banner": "/images/games/project-p-i-t-t/project-p-i-t-t-banner.webp",
+      "icon": "/images/games/project-p-i-t-t/project-p-i-t-t-icon.webp",
+      "vertical": "/images/games/project-p-i-t-t/project-p-i-t-t-vertical.webp"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Monster Hunter : World",
+    "description": "Bienvenue dans le Nouveau Monde ! \"Monster Hunter: World\" offre une dimension de jeu et une liberté sans commune mesure avec les précédents épisodes. Les chasseurs pourront utiliser un arsenal varié pour chasser un bestiaire unique dans un monde fabuleux !",
+    "price": 29.99,
+    "sales": 30,
+    "genres": [
+      "RPG",
+      "Action",
+      "Multijoueur",
+      "Coop",
+      "Monde ouvert",
+      "Fantasy"
+    ],
+    "images": {
+      "banner": "/images/games/monster-hunter-world/monster-hunter-world-banner.webp",
+      "icon": "/images/games/monster-hunter-world/monster-hunter-world-icon.webp",
+      "vertical": "/images/games/monster-hunter-world/monster-hunter-world-vertical.jpg"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Hollow Knight",
+    "description": "Un chevalier dans l'ombre.",
+    "price": 14.99,
+    "sales": null,
+    "genres": [
+      "Action",
+      "Aventure",
+      "Plateformer",
+      "Indépendant",
+      "Fantasy"
+    ],
+    "images": {
+      "banner": "/images/games/hollow-knight/hollow-knight-banner.webp",
+      "icon": "/images/games/hollow-knight/hollow-knight-icon.webp",
+      "vertical": "/images/games/hollow-knight/hollow-knight-vertical.jpg"
+    }
+  }
+]
